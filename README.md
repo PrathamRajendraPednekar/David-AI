@@ -131,3 +131,20 @@ David-AI/
 ├── Main.py                      # Application entry point
 ├── .env                         # Environment variables
 └── README.md
+
+```
+
+## 🛠️ Installation & Setup
+
+###  Run It By Each Line
+
+```bash
+git clone https://github.com/your-username/David-AI.git
+cd David-AI
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+Username=YourName
+Assistantname=David
+python Main.py
+
