@@ -20,24 +20,49 @@ It is designed as a **modular, scalable desktop AI system**.
 
 ## 🖼️ Visual Showcase
 
-### 🔥 AI Generated Image – Thor
+### 🔥 AI Generated Image – Thor  
 *Generated using David AI Image Generation module*
 
-![Thor Image](https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Generated_Images/image_of_Thor.jpg)
+<p align="center">
+  <img src="https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Generated_Images/image_of_Thor.jpg"
+       alt="Thor Image"
+       width="600"/>
+</p>
 
 ---
 
-### 🏛️ AI Generated Image – Jharkhand Monuments
+### 🏛️ AI Generated Image – Jharkhand Monuments  
 *Monument-based AI image generation*
 
-![Jharkhand Monuments](Generated_Images/jharkhand_monuments.png)
+<p align="center">
+  <img src="https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Generated_Images/jharkhand_monuments.png"
+       alt="Jharkhand Monuments"
+       width="600"/>
+</p>
 
 ---
 
-### 🖥️ David AI – GUI Interface
-*Main interface for interacting with David AI*
+### 🖥️ David AI – Graphical User Interface (GUI)
 
-![David AI GUI](Frontend/Graphics/gui.png)
+#### 🔹 GUI 1 – David AI Main Interface  
+*Primary interface of David AI where users interact using voice and controls*
+
+<p align="center">
+  <img src="https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Frontend/Graphics/GUI1.png"
+       alt="David AI Main Interface"
+       width="750"/>
+</p>
+
+---
+
+#### 💬 GUI 2 – Live Chat & Interaction View  
+*Real-time conversation between the user and David AI*
+
+<p align="center">
+  <img src="https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Frontend/Graphics/GUI2.png"
+       alt="David AI Chat Interaction"
+       width="750"/>
+</p>
 
 ---
 
