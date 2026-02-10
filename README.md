@@ -23,7 +23,7 @@ It is designed as a **modular, scalable desktop AI system**.
 ### 🔥 AI Generated Image – Thor
 *Generated using David AI Image Generation module*
 
-![Thor Image]([Generated_Images/thor.png](https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Generated_Images/image_of_Thor.jpg))
+![Thor Image](https://github.com/PrathamRajendraPednekar/David-AI/blob/main/Generated_Images/image_of_Thor.jpg)
 
 ---
 
