@@ -95,3 +95,41 @@ David-AI/
 ├── Main.py                      # Application entry point
 ├── .env                         # Environment variables
 └── README.md
+
+
+## 🧠 How David AI Works
+
+1. The user speaks through the microphone  
+2. Speech is converted into text using the **SpeechRecognition** module  
+3. The **Decision Making Model (DMM)** analyzes and classifies the user’s intent  
+4. Based on the detected intent, David AI performs one or more actions:
+   - 🤖 Chatbot response  
+   - 🔍 Real-time web search  
+   - ⚙️ System or application automation  
+   - 🖼️ AI image generation  
+5. The generated response is converted back into voice using **Text-to-Speech (TTS)**  
+6. All interactions are displayed live on the **Graphical User Interface (GUI)**  
+
+---
+
+## ⚙️ Supported Commands
+
+- `open chrome`  
+- `close notepad`  
+- `play music on spotify`  
+- `google search artificial intelligence`  
+- `youtube play python tutorial`  
+- `generate image of thor`  
+- `voice call john`  
+- `video call mom`  
+- `message hello how are you`  
+- `exit`  
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/David-AI.git
+cd David-AI
