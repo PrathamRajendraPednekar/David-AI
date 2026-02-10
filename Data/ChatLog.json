@@ -1,0 +1,130 @@
+[
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "who am i ?"
+    },
+    {
+        "role": "assistant",
+        "content": "You are Pratham Pednekar."
+    },
+    {
+        "role": "user",
+        "content": "who you are ?"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Jarvis, an advanced AI chatbot."
+    },
+    {
+        "role": "user",
+        "content": "who is elon ?"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk, a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla."
+    },
+    {
+        "role": "user",
+        "content": "and what you know about me ?"
+    },
+    {
+        "role": "assistant",
+        "content": "I know that your name is Pratham Pednekar, and you're the one interacting with me."
+    },
+    {
+        "role": "user",
+        "content": "hello how are u ?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm functioning properly, thank you for asking."
+    },
+    {
+        "role": "user",
+        "content": "remembar that i am 21 years old and doing MBATECH in NMIMS , and love in data science"
+    },
+    {
+        "role": "assistant",
+        "content": "I remember, you're Pratham Pednekar, 21 years old, pursuing MBATECH at NMIMS, and have a strong interest in Data Science."
+    },
+    {
+        "role": "user",
+        "content": "ok bye "
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, have a good day."
+    },
+    {
+        "role": "user",
+        "content": "hello "
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I help you, Pratham?"
+    },
+    {
+        "role": "user",
+        "content": "what do u know about me "
+    },
+    {
+        "role": "assistant",
+        "content": "I know that your name is Pratham Pednekar, you are 21 years old, pursuing MBATECH at NMIMS, and you have a strong interest in Data Science."
+    },
+    {
+        "role": "user",
+        "content": "who is elon musk "
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla, and is a prominent figure in the tech industry, however, my current search results for 'who is Elon Musk' are not available."
+    },
+    {
+        "role": "user",
+        "content": "whats the time now "
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 20 hours, 34 minutes, and 27 seconds, on Thursday, 25th September 2025."
+    },
+    {
+        "role": "user",
+        "content": "hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, I'm happy to chat with you, Pratham. The current time is 20 hours, 42 minutes, and 14 seconds, on Friday, 24th October 2025."
+    },
+    {
+        "role": "user",
+        "content": "hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Pratham."
+    },
+    {
+        "role": "user",
+        "content": "who is elon"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk, a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla."
+    },
+    {
+        "role": "user",
+        "content": "what is the current stock of tesla"
+    },
+    {
+        "role": "assistant",
+        "content": "Unfortunately, I don't have the current search results for the stock of Tesla, as the provided data is empty. I can only tell you that the current date and time are Friday, 24th October 2025, 20 hours, 50 minutes, and 57 seconds."
+    }
+]
