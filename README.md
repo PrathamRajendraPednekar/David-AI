@@ -5,6 +5,22 @@ It is designed as a **modular, scalable desktop AI system**.
 
 ---
 
+## 📑 Table of Contents
+
+- [🤖 David AI – Intelligent Desktop Assistant](#-david-ai--intelligent-desktop-assistant)
+- [🚀 Key Highlights](#-key-highlights)
+- [🖼️ Visual Showcase](#-visual-showcase)
+  - [🔥 AI Generated Image – Thor](#-ai-generated-image--thor)
+  - [🏛️ AI Generated Image – Jharkhand Monuments](#-ai-generated-image--jharkhand-monuments)
+  - [🖥️ David AI – Graphical User Interface (GUI)](#-david-ai--graphical-user-interface-gui)
+    - [🔹 GUI 1 – David AI Main Interface](#-gui-1--david-ai-main-interface)
+    - [💬 GUI 2 – Live Chat & Interaction View](#-gui-2--live-chat--interaction-view)
+- [🧠 How David AI Works](#-how-david-ai-works)
+- [🔄 Workflow](#-workflow)
+- [⚙️ Supported Voice Commands](#-supported-voice-commands)
+- [🏗️ Project Architecture](#-project-architecture)
+- [🛠️ Installation & Setup](#-installation--setup)
+
 ## 🚀 Key Highlights
 
 - 🎤 Speech-to-Text & Text-to-Speech interaction  
