@@ -101,8 +101,8 @@ video call mom
 message hello how are you
 exit
 
-
-## 🏗️ Project Architecture
+```
+🏗️ Project Architecture
 
 ```text
 David-AI/
