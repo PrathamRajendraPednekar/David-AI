@@ -19,7 +19,8 @@ It is designed as a **modular, scalable desktop AI system**.
 - [🔄 Workflow](#-workflow)
 - [⚙️ Supported Voice Commands](#supported-voice-commands)
 - [🏗️ Project Architecture](#project-architecture)
-- [🛠️ Installation & Setup](#installation-setup)
+- [🛠️ Installation & Setup](#installation--setup)
+
 
 
 
