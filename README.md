@@ -19,7 +19,7 @@ It is designed as a **modular, scalable desktop AI system**.
 - [🔄 Workflow](#-workflow)
 - [⚙️ Supported Voice Commands](#supported-voice-commands)
 - [🏗️ Project Architecture](#project-architecture)
-- [🛠️ Installation & Setup](#installation--setup)
+- [🛠️ Installation & Setup](#installation-setup)
 
 
 
@@ -105,7 +105,7 @@ David AI is a voice-enabled intelligent assistant designed to understand user co
 6. 🖥️ All interactions are displayed live on the **Graphical User Interface (GUI)**
 
 ---
-
+<a id="supported-voice-commands"></a>
 ## ⚙️ Supported Voice Commands
 
 ```text
@@ -121,6 +121,7 @@ message hello how are you
 exit
 
 ```
+<a id="project-architecture"></a>
 ## 🏗️ Project Architecture
 
 ```text
@@ -152,7 +153,7 @@ David-AI/
 └── README.md
 
 ```
-
+<a id="installation-setup"></a>
 ## 🛠️ Installation & Setup
 
 ###  Run It By Each Line
