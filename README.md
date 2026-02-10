@@ -17,9 +17,10 @@ It is designed as a **modular, scalable desktop AI system**.
     - [💬 GUI 2 – Live Chat & Interaction View](#-gui-2--live-chat--interaction-view)
 - [🧠 How David AI Works](#-how-david-ai-works)
 - [🔄 Workflow](#-workflow)
-- [⚙️ Supported Voice Commands](#️-supported-voice-commands)
-- [🏗️ Project Architecture](#-project-architecture)
-- [🛠️ Installation & Setup](#-installation--setup)
+- [⚙️ Supported Voice Commands](#supported-voice-commands)
+- [🏗️ Project Architecture](#project-architecture)
+- [🛠️ Installation & Setup](#installation--setup)
+
 
 ## 🚀 Key Highlights
 
