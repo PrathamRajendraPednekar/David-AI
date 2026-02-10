@@ -1,0 +1,5 @@
+.env
+Key.json
+*.key
+*.json
+__pycache__/
