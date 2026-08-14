@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/* ───────────────────────────────────────────────
+   David AI — Design Token System
+   Phase 5: CSS Variables as canonical color tokens
+─────────────────────────────────────────────── */
+:root {
+  --accent-cyan:    #22d3ee;
+  --accent-purple:  #a855f7;
+  --accent-red:     #ef4444;
+  --bg-primary:     #000000;
+  --bg-secondary:   #0a0a0a;
+  --bg-panel:       #111111;
+  --bg-surface:     #1a1a1a;
+  --border-subtle:  rgba(255,255,255,0.07);
+  --text-primary:   #f4f4f5;
+  --text-muted:     #71717a;
+  --text-dim:       #3f3f46;
+}
+
+/* ───────────────────────────────────────────────
+   Reset & Base
+─────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  background-color: transparent !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Suppress scrollbars globally except chat area */
+::-webkit-scrollbar { display: none; }
+
+/* Chat scrollable area allows thin scrollbar */
+.chat-scroll::-webkit-scrollbar {
+  width: 4px;
+  display: block;
+}
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+}
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ───────────────────────────────────────────────
+   Ambient Radial Background
+─────────────────────────────────────────────── */
+.ambient-bg {
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 60%, rgba(34, 211, 238, 0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(168, 85, 247, 0.03) 0%, transparent 60%),
+    var(--bg-primary);
+}
+
+/* ───────────────────────────────────────────────
+   Glassmorphism Surfaces
+─────────────────────────────────────────────── */
+.glass {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(24px) saturate(1.5);
+  -webkit-backdrop-filter: blur(24px) saturate(1.5);
+}
+
+.glass-panel {
+  background: rgba(17, 17, 17, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* ───────────────────────────────────────────────
+   Orb Glow Shadow Utility
+─────────────────────────────────────────────── */
+.orb-glow-cyan {
+  box-shadow:
+    0 0 30px rgba(34, 211, 238, 0.25),
+    0 0 80px rgba(34, 211, 238, 0.10),
+    0 0 160px rgba(34, 211, 238, 0.05);
+}
+.orb-glow-red {
+  box-shadow:
+    0 0 20px rgba(239, 68, 68, 0.35),
+    0 0 60px rgba(239, 68, 68, 0.10);
+}
+
+/* ───────────────────────────────────────────────
+   Ripple press animation
+─────────────────────────────────────────────── */
+@keyframes ripple {
+  0%   { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.ripple::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: currentColor;
+  animation: ripple 0.5s ease-out;
+  pointer-events: none;
+}
+
+/* ───────────────────────────────────────────────
+   Typing dots animation
+─────────────────────────────────────────────── */
+@keyframes typing-dot {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.3; }
+  40%            { transform: translateY(-5px); opacity: 1; }
+}
+.typing-dot:nth-child(1) { animation: typing-dot 1.2s ease infinite 0.0s; }
+.typing-dot:nth-child(2) { animation: typing-dot 1.2s ease infinite 0.2s; }
+.typing-dot:nth-child(3) { animation: typing-dot 1.2s ease infinite 0.4s; }
+
+/* ───────────────────────────────────────────────
+   Input field reset
+─────────────────────────────────────────────── */
+input, textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
