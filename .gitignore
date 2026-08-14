@@ -1,0 +1,42 @@
+# Secrets
+.env
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log and diagnostic files
+*.log
+err.txt
+error_log.txt
+error_log_clean.txt
+trace.txt
+traceback.txt
+temp/
+
+# Build and package targets
+node_modules/
+target/
+frontend-tauri/src-tauri/target/
+
+# Local databases and temporary runtime data
+PyWhatKit_DB.txt
+Data/
+Generated_Images/
+Content AI/
+
+# Audio and generated media files
+*.wav
+*.mp3
+*.docx
+pollinations_puppy.png
+
+# IDE configurations
+.vscode/
